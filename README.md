@@ -23,7 +23,8 @@
 Добавьте management plug-in и зайдите в веб-интерфейс.
 
 *Итогом выполнения домашнего задания будет приложенный скриншот веб-интерфейса RabbitMQ.*
-![Image alt]()
+![Image alt](https://github.com/niko0la/RabbitMQ/blob/main/1-1.png)
+![Image alt](https://github.com/niko0la/RabbitMQ/blob/main/1-2.png)
 ---
 
 ### Задание 2. Отправка и получение сообщений
@@ -44,7 +45,8 @@ $ pip install pika
 *В качестве решения домашнего задания приложите оба скриншота, сделанных на этапе выполнения.*
 
 Для закрепления материала можете попробовать модифицировать скрипты, чтобы поменять название очереди и отправляемое сообщение.
-
+![Image alt](https://github.com/niko0la/RabbitMQ/blob/main/2-1.png)
+![Image alt](https://github.com/niko0la/RabbitMQ/blob/main/2-2.png)
 ---
 
 ### Задание 3. Подготовка HA кластера
@@ -79,7 +81,12 @@ $ rabbitmqadmin get queue='hello'
 После чего попробуйте отключить одну из нод, желательно ту, к которой подключались из скрипта, затем поправьте параметры подключения в скрипте consumer.py на вторую ноду и запустите его.
 
 *Приложите скриншот результата работы второго скрипта.*
-
+![Image alt](https://github.com/niko0la/RabbitMQ/blob/main/3-1.png)
+![Image alt](https://github.com/niko0la/RabbitMQ/blob/main/3-2.png)
+![Image alt](https://github.com/niko0la/RabbitMQ/blob/main/3-3.jpg)
+![Image alt](https://github.com/niko0la/RabbitMQ/blob/main/3-4.jpg)
+![Image alt](https://github.com/niko0la/RabbitMQ/blob/main/3-5.jpg)
+![Image alt](https://github.com/niko0la/RabbitMQ/blob/main/3-6.png)
 
 ## Дополнительные задания (со звёздочкой*)
 Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже шире разобраться в материале.
